@@ -1,0 +1,59 @@
+
+
+header {
+  background-color: rgb(35, 33, 33);
+  width: 100vw;
+  height: 100%;
+}
+
+body {
+  background-color: #f0ebeb17;
+  margin:0
+}
+
+nav {
+  display: grid;
+  grid-template-columns: repeat(3, 0.18fr) 0.44fr;
+  grid-template-rows: 50px 50px;
+  grid-template-areas: 
+  'shares playlist personal-videos user-profile'
+  'shares playlist personal-videos logo';
+  justify-items: end;
+  align-items: end;
+  align-content: space-around;
+}
+
+.shares,
+.playlist,
+.personal-videos {
+  padding-top: 2em;
+  padding-right: 4em;
+}
+
+.shares {
+  grid-area: shares;
+  padding-top: .5em;
+  color: gray;
+}
+
+.playlist {
+  grid-area: playlist;
+  padding-top: .5em;
+  color: gray
+}
+
+.personal-videos {
+  grid-area: personal-videos;
+  padding-top: .5em;
+  color: gray
+}
+
+.user-profile {
+  grid-area: user-profile;
+  color: gray;
+}
+
+.logo {
+  grid-area: logo;
+  color: gray
+}
