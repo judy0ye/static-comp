@@ -3,12 +3,16 @@
 header {
   background-color: rgb(35, 33, 33);
   width: 100vw;
-  height: 100%;
+  height: 20vh;
 }
 
 body {
   background-color: #f0ebeb17;
-  margin:0
+  margin: 0
+}
+
+main {
+  margin-left: 1
 }
 
 nav {
@@ -31,6 +35,7 @@ nav {
 }
 
 .shares {
+  
   grid-area: shares;
   padding-top: .5em;
   color: gray;
@@ -56,4 +61,17 @@ nav {
 .logo {
   grid-area: logo;
   color: gray
+}
+
+.card-center {
+  display: flex;
+  justify-content: space-around;
+  margin: 1em;
+  border: 2px solid black
+}
+
+.individual-card {
+  border: 1px solid blue;
+  width: 16em;
+  height: 23em
 }
