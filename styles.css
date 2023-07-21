@@ -4,6 +4,9 @@ header {
   background-color: rgb(35, 33, 33);
   width: 100vw;
   height: 20vh;
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 body {
@@ -11,7 +14,84 @@ body {
   margin: 0
 }
 
-main {
+/* .header {
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-end;
+} */
+
+.user-and-logo {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr ;
+  justify-items: center;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  /* background-color: rgb(35, 33, 33); */
+  background: none;
+  border: none
+}
+
+.nav-block {
+  display: flex;
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  margin-left: 0.6em;
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  padding: .1em;
+  background: none;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 3em;
+}
+
+.admin-logo {
+  font-size: 2em;
+  background: none;
+  color: gray;
+  fill-opacity: .7;
+}
+
+.nav {
+  display: inline-flex;
+  align-items: center;
+  padding: .5em;
+  background: none;
+  color: gray;
+  font-size: 1.4em;
+}
+
+.shares,
+.shares-text {
+  color: white
+}
+
+.profile,
+.down-icon,
+.icon {
+  display: inline-flex;
+  align-items: center;
+  font-size: 1em;
+  background: none;
+  color: rgb(31, 147, 209)
+}
+
+.down-icon,
+.icon {
+  font-size: 1.5em;
+}
+
+
+/* main {
   margin-left: 1
 }
 
@@ -66,12 +146,15 @@ nav {
 .card-center {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   margin: 1em;
   border: 2px solid black
 }
 
 .individual-card {
   border: 1px solid blue;
-  width: 16em;
-  height: 23em
-}
+  width: 20em;
+  height: 28em;
+  text-align: start;
+} */
+

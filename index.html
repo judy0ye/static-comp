@@ -9,21 +9,67 @@
     <link rel="stylesheet" href="styles.css">
     <title>static-comp</title>
   </head>
-  <body>
-    <header>
-      <nav>
-        <div class="shares"><h1><img src="./assets/share.png" width="25" height="20" alt="share symbol">Shares</h1></div>
-        <div class="playlist"><h1><img src="./assets/preferences.png" width="25" height="20" alt="preference symbol">Playlist</h1></div>
-        <div class="personal-videos"><h1>personal videos</h1></div>
-        <div class="user-profile">user profile</div>
-        <div class="logo">personal logo</div>
-      </nav>
-    </header>
+  <!-- <body>
     <main>
       <section><h2>Shares</h2></section>
       <section class="card-center">
         <article class="individual-card">
-          <section><img src="./assets/charlesdeluvio-K4mSJ7kc0As-unsplash.jpg" width="150" height="120" alt="photo of dog in denim jacket">
+          <section class="individual-card-background-photo"><img src="./assets/charlesdeluvio-K4mSJ7kc0As-unsplash.jpg" width="320" height="155" alt="photo of dog in denim jacket">
+          </section>
+          <h3>Recipeint's Namehere</h3>
+          <h4>Date</h4>
+          <link>
+          <p></p>
+          <h3></h3>
+          <p></p>
+          <h2></h2>
+        </article>
+        <article class="individual-card">
+          <section class="individual-card-background-photo"><img src="./assets/premium_photo-1677545182078-2fe0e0e6c336.avif" width="320" height="155">
+          </section>
+          <h3>Recipeint's Namehere</h3>
+          <h4>Date</h4>
+          <link>
+          <p></p>
+          <h3></h3>
+          <p></p>
+          <h2></h2>
+        </article>
+        <article class="individual-card">
+          <section class="individual-card-background-photo"><img src="./assets/girl-with-red-hat-n95ufD2zxaI-unsplash.jpg" width="320" height="155">
+          </section>
+          <h3>Recipeint's Namehere</h3>
+          <h4>Date</h4>
+          <link>
+          <p></p>
+          <h3></h3>
+          <p></p>
+          <h2></h2>
+        </article>
+        <article class="individual-card">
+          <section class="individual-card-background-photo"><img src="./assets/pexels-nana-photography-6476630.jpg" width="320" height="155">
+          </section>
+          <h3>Recipeint's Namehere</h3>
+          <h4>Date</h4>
+          <link>
+          <p></p>
+          <h3></h3>
+          <p></p>
+          <h2></h2>
+        </article>
+        <article class="individual-card">
+          <section class="individual-card-background-photo"><img width="320" height="155">
+          </section>
+          <h3>Recipeint's Namehere</h3>
+          <h4>Date</h4>
+          <link>
+          <p></p>
+          <h3></h3>
+          <p></p>
+          <h2></h2>
+        </article>
+        <article class="individual-card">
+          <section><img width="320" height="155">
 
           </section>
           <h3>Recipeint's Namehere</h3>
@@ -35,7 +81,7 @@
           <h2></h2>
         </article>
         <article class="individual-card">
-          <section><img src="./assets/premium_photo-1677545182078-2fe0e0e6c336.avif" width="255" height="120">
+          <section><img width="320" height="155">
 
           </section>
           <h3>Recipeint's Namehere</h3>
@@ -47,19 +93,7 @@
           <h2></h2>
         </article>
         <article class="individual-card">
-          <section>bg image
-
-          </section>
-          <h3>Recipeint's Namehere</h3>
-          <h4>Date</h4>
-          <link>
-          <p></p>
-          <h3></h3>
-          <p></p>
-          <h2></h2>
-        </article>
-        <article class="individual-card">
-          <section>bg image
+          <section><img width="320" height="155">
 
           </section>
           <h3>Recipeint's Namehere</h3>
@@ -72,5 +106,83 @@
         </article>
       </section>
     </main>
+  </body> -->
+  <body>
+    <header>
+      <section class="nav-block">
+        <button class="button shares">
+          <ion-icon class="share-icon" name="share-social-outline"></ion-icon>
+          <span class="nav shares-text">SHARES</span>
+        </button>
+        <button class="button">
+          <ion-icon class="icon" name="list-outline"></ion-icon>
+          <span class="nav playlist-text">PLAYLIST</span>
+        </button>
+        <button class="button">
+          <ion-icon class="icon" name="person-outline"></ion-icon>
+          <span class="nav video-text">PERSONAL VIDEOS</span>
+        </button>
+      </section>
+      <section class="user-and-logo">
+        <div>
+          <button class="button">
+            <ion-icon class="admin-logo" name="person-circle-outline"></ion-icon>
+            <span class="profile">Admin Username</span>
+            <ion-icon class="down-icon" name="caret-down-outline"></ion-icon>
+          </button>
+        </div>
+        <div>
+          <button type="button" class="logo">
+            <ion-icon name="logo-octocat"></ion-icon>
+            <span class="logo-text">2Cats!</span>
+          </button>  
+        </div>  
+      </section>
+    </header>
+    <main>
+      <h1>Shares</h1>
+      <article>
+        <section>bg photo</section>
+        <h2>Receipeint's Namehere</h2>
+        <p>Monday 01/23/16 10:22am</p>
+        <a>link</a>
+        <p>playlist</p>
+        <h2>Name of Playlist</h2>
+        <p>ATTACHMENTS</p>
+        <button>04</button>  
+      </article>
+      <article>
+        <section>bg photo</section>
+        <h2>Receipeint's Namehere</h2>
+        <p>Monday 01/23/16 10:22am</p>
+        <a>link</a>
+        <p>playlist</p>
+        <h2>Name of Playlist</h2>
+        <p>ATTACHMENTS</p>
+        <button>04</button>  
+      </article>
+      <article>
+        <section>bg photo</section>
+        <h2>Receipeint's Namehere</h2>
+        <p>Monday 01/23/16 10:22am</p>
+        <a>link</a>
+        <p>playlist</p>
+        <h2>Name of Playlist</h2>
+        <p>ATTACHMENTS</p>
+        <button>04</button>  
+      </article>
+      <article>
+        <section>bg photo</section>
+        <h2>Receipeint's Namehere</h2>
+        <p>Monday 01/23/16 10:22am</p>
+        <a>link</a>
+        <p>playlist</p>
+        <h2>Name of Playlist</h2>
+        <p>ATTACHMENTS</p>
+        <button>04</button>  
+      </article>
+    </main>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   </body>
 </html>
