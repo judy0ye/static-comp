@@ -1,12 +1,12 @@
 
 body {
-  background-color: #f0ebeb17;
+  background-color: #efefef;
   margin: 0
 }
 
 /* HEADER */
 header {
-  background-color: rgb(35, 33, 33);
+  background-color: rgb(43 43 43);
   width: 100vw;
   height: 20vh;
   display:flex;
@@ -24,7 +24,9 @@ header {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr ;
-  justify-items: center;
+  justify-items: end;
+  padding-inline-end: 2.4em;
+  padding-block-end: 1em;
 }
 
 .button {
@@ -90,13 +92,21 @@ header {
 }
 
 main {
-  margin: 1em
+  margin: 1em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h2 {
+  font-size: 1rem;
 }
 
 .card-center {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  gap: 10px
 }
 
 .card-center-share {
@@ -113,11 +123,15 @@ main {
   padding-bottom: 2%;
 }
 
+.card-center-share:hover {
+  color: #460606;
+}
+
 article {
-  border: 1px blue solid;
-  height: 60vh;
-  width: 20vw;
-  margin-bottom: 0.5em;
+  border: 1px #bebebe solid;
+    height: 60vh;
+    width: 23vw;
+    box-shadow: 1px 1px 1px 2px #dadcdb;
 }
 
 .card {
