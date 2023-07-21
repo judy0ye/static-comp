@@ -1,5 +1,10 @@
 
+body {
+  background-color: #f0ebeb17;
+  margin: 0
+}
 
+/* HEADER */
 header {
   background-color: rgb(35, 33, 33);
   width: 100vw;
@@ -7,11 +12,6 @@ header {
   display:flex;
   justify-content: space-between;
   align-items: flex-end;
-}
-
-body {
-  background-color: #f0ebeb17;
-  margin: 0
 }
 
 /* .header {
@@ -30,7 +30,6 @@ body {
 .button {
   display: inline-flex;
   align-items: center;
-  /* background-color: rgb(35, 33, 33); */
   background: none;
   border: none
 }
@@ -90,6 +89,73 @@ body {
   font-size: 1.5em;
 }
 
+main {
+  margin: 1em
+}
+
+.card-center {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card-center-share {
+  cursor: pointer;
+  font-size: 3em;
+  font-size: 2em;
+  border: none;
+  border-radius: 50%;
+  margin-left: 5%;
+  margin-top: 5%;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 2%;
+}
+
+article {
+  border: 1px blue solid;
+  height: 60vh;
+  width: 20vw;
+  margin-bottom: 0.5em;
+}
+
+.card {
+  background-size: 100% 100%;
+  height: 33%
+}
+
+.card-header-one {
+  background-image: url(./assets/nicola-kameel-11MKwELwXcU-unsplash.jpg);
+}
+
+.card-header-two {
+  background-image: url(./assets/oreo.jpg);
+}
+
+.card-header-three {
+  background-image: url(./assets/pacto-visual-cWOzOnSoh6Q-unsplash.jpg);
+}
+
+.card-header-four {
+  background-image: url(./assets/toni-tan-mkP0mmP3rug-unsplash.jpg)
+}
+
+.card-header-five {
+  background-image: url(./assets/eric-han-Hd7vwFzZpH0-unsplash.jpg);
+}
+
+.card-header-six {
+  background-image: url(./assets/mikhail-vasilyev-IFxjDdqK_0U-unsplash.jpg);
+}
+
+.card-header-seven {
+  background-image: url(./assets/martin-schiffer-ZEd44nDPTfA-unsplash.jpg);
+}
+
+.card-header-eight {
+  background-image: url(./assets/sophie-dale-ovuTeeIm_0M-unsplash.jpg);
+}
 
 /* main {
   margin-left: 1
