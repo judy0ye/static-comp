@@ -1,14 +1,15 @@
 
 body {
   background-color: #efefef;
-  margin: 0
+  margin: 0;
+  font-family: 'Lato', sans-serif;
 }
 
 /* HEADER */
 header {
   background-color: rgb(43 43 43);
   width: 100vw;
-  height: 20vh;
+  height: 23vh;
   display:flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -25,15 +26,16 @@ header {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr ;
   justify-items: end;
-  padding-inline-end: 2.4em;
-  padding-block-end: 1em;
+  padding-inline-end: 1.6em;
+  padding-block-end: 1.2em;
 }
 
 .button {
   display: inline-flex;
   align-items: center;
   background: none;
-  border: none
+  border: none;
+  margin-top: 0.9em;
 }
 
 .nav-block {
@@ -52,11 +54,13 @@ header {
   border: none;
   color: #ffffff;
   cursor: pointer;
-  font-size: 3em;
+  font-size: 3.5rem;
+  font-weight: 600;
+  font-family: 'Aleo', serif
 }
 
 .admin-logo {
-  font-size: 2em;
+  font-size: 2.5rem;
   background: none;
   color: gray;
   fill-opacity: .7;
@@ -81,9 +85,9 @@ header {
 .icon {
   display: inline-flex;
   align-items: center;
-  font-size: 1em;
+  font-size: 1rem;
   background: none;
-  color: rgb(31, 147, 209)
+  color: rgb(38 181 251)
 }
 
 .down-icon,
@@ -98,8 +102,47 @@ main {
   flex-direction: column;
 }
 
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 1.2em;
+}
+
 h2 {
   font-size: 1rem;
+}
+
+.link{
+  background-color: #efefef;
+  text-decoration-color: gray;
+  width: 16em;
+  height: 3em;
+  word-wrap: break-word;
+  padding: .5em;
+  padding-right: 1.9em;
+  color: #919191;
+  font-weight: bold;
+}
+
+.user-name-date {
+  margin: 1em 0em
+}
+
+.user-name-date h2,
+.user-name-date p {
+  display: block;
+  margin: 0;
+  padding: 0
+}
+
+.user-name-date h2 {
+  font-weight: 400;
+  font-size: 1.15rem
+}
+
+.user-name-date p {
+  color: #959597;
 }
 
 .card-center {
@@ -126,13 +169,22 @@ h2 {
 }
 
 .card-center-share:hover {
-  color: #062e46;
+  color: rgb(38 181 251);
+}
+
+.views {
+  font-weight: bold;
+}
+
+.number-of-views {
+  font-weight: bold;
+  font-size: 2.5rem
 }
 
 article {
   border: 1px #bebebe solid;
   background-color: #ffffff;
-  height: 60vh;
+  height: 62vh;
   width: 23vw;
   box-shadow: 1px 1px 1px 2px #dadcdb;
 }
@@ -144,12 +196,12 @@ article {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgb(122, 122, 120, .3);
+  background-color: rgb(122, 122, 120, .40);
 }
 
 .card-head {
   background-size: 100% 100%;
-  height: 33%;
+  height: 36%;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -165,11 +217,11 @@ article {
 }
 
 .card-header-one {
-  background-image: url(./assets/nicola-kameel-11MKwELwXcU-unsplash.jpg);
+  background-image: url(./assets/hannah-troupe-0FQneB1VjaM-unsplash.jpg);
 }
 
 .card-header-two {
-  background-image: url(./assets/oreo.jpg);
+  background-image: url(./assets/oreoo.jpg);
 }
 
 .card-header-three {
