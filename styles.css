@@ -101,11 +101,12 @@ h1 {
   color: #4d4d4d;  
   font-size: 2.65rem;
   font-weight: 400;
-  margin: 0.6em 0.2em 0.8em
+  margin: 0.65em 0em 0.65em;
+  padding-bottom: 0.2em
 }
 
 main {
-  margin: 1em 1.9em;
+  margin: .9em 1.9em;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -159,12 +160,29 @@ h2 {
   color: #959597;
 }
 
-.playlist div {
+.playlist span {
   font-size: .85rem;
 }
 
 .playlist {
-  margin: 1em 0em
+  margin: 1.1em 0em
+}
+
+.attachments {
+  display: flex; 
+  flex-direction: column;
+  font-size: 0.8rem;
+  color: #5d5d5d;
+  margin-top: .3em;
+}
+
+.attachments button {
+  border: none;
+  background-color: transparent;
+  color: #53c2ff;
+  font-size: 2.15rem;
+  padding-top: .15em 0em;
+  text-align: start;
 }
 
 .card-center {
