@@ -130,19 +130,32 @@ h2 {
 }
 
 .user-name-date h2,
-.user-name-date p {
+.user-name-date time,
+.playlist div,
+.playlist h2 {
   display: block;
   margin: 0;
   padding: 0
 }
 
-.user-name-date h2 {
+.user-name-date h2,
+.playlist h2 {
   font-weight: 400;
-  font-size: 1.15rem
+  font-size: 1.15rem;
+  color: #5d5d5d
 }
 
-.user-name-date p {
+.user-name-date time {
+  font-size: .94rem;
   color: #959597;
+}
+
+.playlist div {
+  font-size: .85rem;
+}
+
+.playlist {
+  margin: 1em 0em
 }
 
 .card-center {
