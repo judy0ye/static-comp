@@ -20,6 +20,13 @@ This is a recreation of a static comp given by Turing School of Software and Des
 
 </details>
 
+## 🖥️ Technologies Used
+![HTML5](https://img.shields.io/badge/-HTML5-05122A?style=flat&logo=html5)
+![CSS3](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=css3)
+![Github](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github)
+![VSCode](https://img.shields.io/badge/-VS_Code-05122A?style=flat&logo=visualstudio)
+![Markdown](https://img.shields.io/badge/-Markdown-05122A?style=flat&logo=markdown)
+
 ### Source Credits:
 Background Photos by: 
 - <a href="https://unsplash.com/@htroupe?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Hannah Troupe</a> on <a href="https://unsplash.com/photos/0FQneB1VjaM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
