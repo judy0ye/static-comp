@@ -36,4 +36,4 @@ Background Photos by:
   
 - <a href="https://unsplash.com/@allthestars?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sophie Dale</a> on <a href="https://unsplash.com/photos/ovuTeeIm_0M?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</
 
-- Logo and Icons from <a href="https://ionic.io/ionicons">ionicons</a>
+Logo and Icons from <a href="https://ionic.io/ionicons">ionicons</a>
