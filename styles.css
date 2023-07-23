@@ -1,3 +1,11 @@
+/* FONT */
+/* font-family: 'Lato', sans-serif */
+/* font-family for 2Cats! Logo: 'Aleo', serif */
+
+button {
+  cursor: pointer;
+  border-radius: 25%;
+}
 
 body {
   background-color: #efefef;
@@ -7,26 +15,18 @@ body {
   overflow-y: scroll;
 }
 
-button {
-  cursor: pointer;
-  border-radius: 25%;
-}
- 
-
-/* HEADER */
+/* HEADER BANNER */
 header {
   background-color: rgb(43 43 43);
   width: 100vw;
   height: 23vh;
-  display:flex;
+  display: flex;
   justify-content: space-between;
   align-items: flex-end;
 }
 
 .admin-and-site-logo {
   display: grid;
-  /* grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr ; */
   justify-items: end;
   padding-inline-end: 1.6em;
   padding-block-end: 1.2em;
@@ -38,35 +38,34 @@ header {
   background: none;
   border: hidden;
   margin-top: 0.9em;
-  padding: 1.2em
+  padding: 1.2em;
 }
 
 .navigation-block {
   display: flex;
   font-size: 2.2rem;
   margin-bottom: 1em;
-  margin-left: .5em
+  margin-left: 0.5em;
 }
 
 .logo {
   display: inline-flex;
   align-items: center;
-  /* flex-direction: row-reverse; */
-  padding: .15em .2em;
+  padding: 0.15em 0.2em;
   background: none;
   border: none;
   color: #ffffff;
   cursor: pointer;
   font-size: 3.5rem;
   font-weight: 600;
-  font-family: 'Aleo', serif
+  font-family: 'Aleo', serif;
 }
 
 .admin-logo {
   font-size: 2.5rem;
   background: none;
   color: gray;
-  fill-opacity: .7;
+  fill-opacity: 0.7;
   padding-right: 0.1em;
 }
 
@@ -77,20 +76,13 @@ header {
 .nav {
   display: inline-flex;
   align-items: center;
-  padding: .5em;
+  padding: 0.5em;
   background: none;
   color: gray;
   font-size: 1.2rem;
   margin-right: 1em;
   margin-left: 0.5em;
 }
-
-/* .shares,
-.shares-text {
-  color: white;
-  font-size: 1.2rem;
-} */
-
 
 .admin-button,
 .down-icon,
@@ -112,19 +104,20 @@ header {
   font-size: 1.6rem;
 }
 
-h1 {
-  color: #4d4d4d;  
-  font-size: 2.65rem;
-  font-weight: 400;
-  margin: 0.65em 0em 0.65em;
-  padding-bottom: 0.2em
-}
-
+/* MAIN SECTION WITH INDIVIDUAL CARDS */
 main {
-  margin: .9em 1.9em;
+  margin: 0.9em 1.9em;
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+
+h1 {
+  color: #4d4d4d;
+  font-size: 2.65rem;
+  font-weight: 400;
+  margin: 0.65em 0em 0.65em;
+  padding-bottom: 0.2em;
 }
 
 .card-body {
@@ -138,20 +131,20 @@ h2 {
   font-size: 1rem;
 }
 
-.link{
+.link {
   background-color: #efefef;
   text-decoration-color: gray;
   width: 16em;
   height: 3em;
   word-wrap: break-word;
-  padding: .5em;
+  padding: 0.5em;
   padding-right: 1.9em;
   color: #919191;
   font-weight: bold;
 }
 
 .user-name-date {
-  margin: 1em 0em
+  margin: 1em 0em;
 }
 
 .user-name-date h2,
@@ -160,35 +153,35 @@ h2 {
 .playlist h2 {
   display: block;
   margin: 0;
-  padding: 0
+  padding: 0;
 }
 
 .user-name-date h2,
 .playlist h2 {
   font-weight: 400;
   font-size: 1.15rem;
-  color: #5d5d5d
+  color: #5d5d5d;
 }
 
 .user-name-date time {
-  font-size: .94rem;
+  font-size: 0.94rem;
   color: #959597;
 }
 
 .playlist span {
-  font-size: .85rem;
+  font-size: 0.85rem;
 }
 
 .playlist {
-  margin: 1.1em 0em
+  margin: 1.1em 0em;
 }
 
 .attachments {
-  display: flex; 
+  display: flex;
   flex-direction: column;
   font-size: 0.8rem;
   color: #5d5d5d;
-  margin-top: .3em;
+  margin-top: 0.3em;
 }
 
 .attachments button {
@@ -196,16 +189,16 @@ h2 {
   background-color: transparent;
   color: #53c2ff;
   font-size: 2.15rem;
-  padding-top: .15em 0em;
+  padding-top: 0.15em 0em;
   text-align: start;
-  width: 1.5em
+  width: 1.5em;
 }
 
 .card-center {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  gap: 0.65em
+  gap: 0.65em;
 }
 
 .card-center-share {
@@ -229,7 +222,7 @@ h2 {
 }
 
 button:hover {
-  box-shadow: 0 0 .2rem .15rem rgb(38 181 251);
+  box-shadow: 0 0 0.2rem 0.15rem rgb(38 181 251);
 }
 
 .views {
@@ -238,7 +231,7 @@ button:hover {
 
 .number-of-views {
   font-weight: bold;
-  font-size: 2.5rem
+  font-size: 2.5rem;
 }
 
 article {
@@ -256,7 +249,7 @@ article {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgb(122, 122, 120, .35);
+  background-color: rgb(122, 122, 120, 0.35);
 }
 
 .card-head-background-image {
@@ -276,6 +269,7 @@ article {
   padding: 1em;
 }
 
+/* BACKGROUND IMAGES FOR INDIVIDUAL CARD HEADERS */
 .card-header-one {
   background-image: url(./assets/hannah-troupe-0FQneB1VjaM-unsplash.jpg);
 }
@@ -289,7 +283,7 @@ article {
 }
 
 .card-header-four {
-  background-image: url(./assets/toni-tan-mkP0mmP3rug-unsplash.jpg)
+  background-image: url(./assets/toni-tan-mkP0mmP3rug-unsplash.jpg);
 }
 
 .card-header-five {
@@ -313,8 +307,8 @@ article {
   margin: -1px !important;
   border: 0 !important;
   padding: 0 !important;
-  clip: rect(0,0,0,0) !important;
-	white-space: nowrap !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
   height: 1px !important;
   width: 1px !important;
   overflow: hidden !important;
