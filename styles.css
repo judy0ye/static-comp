@@ -11,7 +11,7 @@ button {
   cursor: pointer;
   border-radius: 25%;
 }
-  
+ 
 
 /* HEADER */
 header {
@@ -23,10 +23,10 @@ header {
   align-items: flex-end;
 }
 
-.user-and-logo {
+.admin-and-site-logo {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr ;
+  /* grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr ; */
   justify-items: end;
   padding-inline-end: 1.6em;
   padding-block-end: 1.2em;
@@ -41,9 +41,9 @@ header {
   padding: 1.2em
 }
 
-.nav-block {
+.navigation-block {
   display: flex;
-  /* font-size: 2.2rem; */
+  font-size: 2.2rem;
   margin-bottom: 1em;
   margin-left: .5em
 }
@@ -51,7 +51,7 @@ header {
 .logo {
   display: inline-flex;
   align-items: center;
-  flex-direction: row-reverse;
+  /* flex-direction: row-reverse; */
   padding: .15em .2em;
   background: none;
   border: none;
@@ -67,9 +67,12 @@ header {
   background: none;
   color: gray;
   fill-opacity: .7;
+  padding-right: 0.1em;
 }
 
-
+.icon {
+  margin-right: 0.5em;
+}
 
 .nav {
   display: inline-flex;
@@ -78,31 +81,35 @@ header {
   background: none;
   color: gray;
   font-size: 1.2rem;
+  margin-right: 1em;
+  margin-left: 0.5em;
 }
 
-.shares,
+/* .shares,
 .shares-text {
   color: white;
   font-size: 1.2rem;
-}
+} */
 
-.profile,
+
+.admin-button,
 .down-icon,
 .icon {
   display: inline-flex;
   align-items: center;
   font-size: 1rem;
   background: none;
-  color: rgb(38 181 251)
+  color: rgb(38 181 251);
+  padding-left: 0.2em;
 }
 
-.share-icon,
-.icon {
-  font-size: 1.6rem;
+.shares {
+  color: white;
 }
 
+.icon,
 .down-icon {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
 }
 
 h1 {
@@ -191,6 +198,7 @@ h2 {
   font-size: 2.15rem;
   padding-top: .15em 0em;
   text-align: start;
+  width: 1.5em
 }
 
 .card-center {
@@ -241,7 +249,7 @@ article {
   box-shadow: 1px 1px 1px 2px #dadcdb;
 }
 
-.card-head::before {
+.card-head-background-image::before {
   content: '';
   position: absolute;
   top: 0;
@@ -251,7 +259,7 @@ article {
   background-color: rgb(122, 122, 120, .35);
 }
 
-.card-head {
+.card-head-background-image {
   background-size: 100% 100%;
   height: 36%;
   display: flex;
@@ -300,70 +308,14 @@ article {
   background-image: url(./assets/sophie-dale-ovuTeeIm_0M-unsplash.jpg);
 }
 
-/* main {
-  margin-left: 1
+.visually-hidden {
+  position: absolute !important;
+  margin: -1px !important;
+  border: 0 !important;
+  padding: 0 !important;
+  clip: rect(0,0,0,0) !important;
+	white-space: nowrap !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden !important;
 }
-
-nav {
-  display: grid;
-  grid-template-columns: repeat(3, 0.18fr) 0.44fr;
-  grid-template-rows: 50px 50px;
-  grid-template-areas: 
-  'shares playlist personal-videos user-profile'
-  'shares playlist personal-videos logo';
-  justify-items: end;
-  align-items: end;
-  align-content: space-around;
-}
-
-.shares,
-.playlist,
-.personal-videos {
-  padding-top: 2em;
-  padding-right: 4em;
-}
-
-.shares {
-  
-  grid-area: shares;
-  padding-top: .5em;
-  color: gray;
-}
-
-.playlist {
-  grid-area: playlist;
-  padding-top: .5em;
-  color: gray
-}
-
-.personal-videos {
-  grid-area: personal-videos;
-  padding-top: .5em;
-  color: gray
-}
-
-.user-profile {
-  grid-area: user-profile;
-  color: gray;
-}
-
-.logo {
-  grid-area: logo;
-  color: gray
-}
-
-.card-center {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  margin: 1em;
-  border: 2px solid black
-}
-
-.individual-card {
-  border: 1px solid blue;
-  width: 20em;
-  height: 28em;
-  text-align: start;
-} */
-
