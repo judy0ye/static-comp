@@ -16,7 +16,7 @@ This is a recreation of a static comp given by Turing School of Software and Des
 ## :eyes: Preview
 <details open>
 
-<img width="1421" alt="Screenshot 2023-07-22 at 6 13 27 PM" src="https://github.com/judy0ye/static-comp/assets/129805348/0572e277-4c05-4fa1-bd5a-970359038e56">
+<img width="1420" alt="Screenshot 2023-07-24 at 11 03 24 PM" src="https://github.com/judy0ye/static-comp/assets/129805348/f8ad3bf7-b71d-4e70-8c65-371a4719009a">
 
 </details>
 
