@@ -9,7 +9,7 @@
 
 ## :pencil: Description
 
-This is a recreation of a static comp given by Turing School of Software and Design. The objective is to build something that respects the integrity of the original design.
+This is a recreation of a <a href="https://frontend.turing.edu/assets/images/static-comp-challenge-2.jpg">static comp</a> given by Turing School of Software and Design. The objective is to build something that respects the integrity of the original design.
 
 </div>
 
